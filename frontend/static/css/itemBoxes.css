@@ -1,0 +1,32 @@
+#boxes {
+    display: flex;
+    border: 1px solid blue;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+.box{
+    text-align: center;
+    display: inline-block;
+    height: fit-content;
+    padding: 5px 5px;
+    padding-top: 0px;
+    width: fit-content;
+
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.6px);
+    -webkit-backdrop-filter: blur(1.6px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+
+}
+
+.boxItem {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    margin-top: 10px;
+    left: 0px;
+    right: 0px;
+}
